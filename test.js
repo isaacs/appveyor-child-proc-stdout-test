@@ -33,7 +33,6 @@ function child () {
 
 function parent () {
   var N = 1e6
-  var N = 10
   var n = 0
   var spawn = require("child_process").spawn
   runChild()
